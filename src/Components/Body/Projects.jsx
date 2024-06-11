@@ -18,7 +18,7 @@ const Projects = () =>{
                <ul className="bg-white px-5 rounded flex flex-row flex-wrap justify-center items-start py-5">
                 {console.log(JSON.stringify(projects[0]?.name))}
                 {projects.map((project, index) =>
-                        <li key={index} className="text-black flex flex-row flex-wrap justify-between items-center py-2 w-1/2">
+                        <li key={index} className="text-black flex flex-row flex-wrap justify-between items-center py-2 w-1/2 px-2">
                             <div><a href={project.link} target="_blank">{project.name} <span><ArrowTopRightOnSquareIcon className="size-3 text-black-500 inline-block" /></span></a></div>
                         </li>
                 )}

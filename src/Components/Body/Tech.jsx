@@ -19,7 +19,7 @@ const Tech = () =>{
                 {console.log(JSON.stringify(tools[0]?.name))}
                 {tools.map((tool, index) =>
                         <li key={index} className="text-black flex flex-row flex-wrap justify-between items-center py-2">
-                            <div><img src={`https://resumetresele.blob.core.windows.net/resumetresele${tool.imgUrl}`} target="_blank" className="w-36 md:w-42 lg:w-52"/></div>
+                            <div><img src={`https://resumetresele.blob.core.windows.net/resumetresele${tool.imgUrl}`} target="_blank" className="w-28 md:w-44 lg:w-52"/></div>
                         </li>
                 )}
                     

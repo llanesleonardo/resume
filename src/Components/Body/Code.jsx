@@ -16,7 +16,7 @@ const Code = () =>{
                 <div  className="w-full py-5">
                <ul className="bg-white px-5 py-5 rounded flex flex-row flex-wrap justify-center items-start">
                 {codetools.map((codetool, index) =>
-                        <li key={index} className="text-black flex flex-row flex-wrap w-1/2 justify-between items-center py-2">
+                        <li key={index} className="text-black flex flex-row flex-wrap w-1/2 justify-between items-center py-2 px-2">
                             <div><p className="text-black">{codetool.name}</p></div>
                         </li>
                 )}
