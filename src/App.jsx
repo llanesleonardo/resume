@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div  className='dark:bg-slate-800 h-full'>
+    <div  className=' bg-[url("./assets/bg2.png")]'>
      <HomePage/>
      </div>
     </>

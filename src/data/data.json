@@ -6,49 +6,199 @@
             "link":"https://experienciasennutricion.com/web/"
         },
         {
-            "id":1,
+            "id":2,
             "name":"Tommy wave",
             "link":"https://tommywave.com/"
         },
         {
-            "id":1,
+            "id":3,
             "name":"Liset Bonilla",
             "link":"https://lisetbonilla.com/"
         },
         {
-            "id":1,
+            "id":4,
             "name":"Special Carbide Tools Inc",
             "link":"https://specialcarbide.com/"
         },
         {
-            "id":1,
+            "id":5,
             "name":"Valente Disenador",
             "link":"https://valentedisenador.com/"
         },
         {
-            "id":1,
+            "id":6,
             "name":"Vidya Frente al Espejo",
             "link":"https://vidyafrentealespejo.com/store/"
         },
         {
-            "id":1,
+            "id":7,
             "name":"KMSolucion",
             "link":"https://kmsolucion.com/km60/"
         },
         {
-            "id":1,
+            "id":8,
             "name":"Robles Flooring",
             "link":"https://roblesflooringtucson.com/web/"
         },
         {
-            "id":1,
+            "id":9,
             "name":"Iltsm Org",
             "link":"https://iltsm.org.mx/"
         },
         {
-            "id":1,
+            "id":10,
             "name":"3L Strategy",
             "link":"https://3lstrategy.com"
         }
+     ],
+     "tools":[
+        {
+            "id":1,
+            "name":"Facebook",
+            "imgUrl":"/tools/cm01.png"
+        },
+        {
+            "id":2,
+            "name":"Instagram",
+            "imgUrl":"/tools/cm02.png"
+        },
+        {
+            "id":3,
+            "name":"LinkedIn",
+            "imgUrl":"/tools/cm03.png"
+        },
+        {
+            "id":4,
+            "name":"Google Ads",
+            "imgUrl":"/tools/cm04.png"
+        },
+        {
+            "id":5,
+            "name":"Google Analytics",
+            "imgUrl":"/tools/cm05.png"
+        },
+        {
+            "id":6,
+            "name":"Google Trends",
+            "imgUrl":"/tools/cm06.png"
+        },
+        {
+            "id":7,
+            "name":"Mailchimp",
+            "imgUrl":"/tools/cm07.png"
+        },
+        {
+            "id":8,
+            "name":"Wordpress",
+            "imgUrl":"/tools/cm08.png"
+        },
+        {
+            "id":9,
+            "name":"MS PowerBI",
+            "imgUrl":"/tools/cm09.png"
+        },
+        {
+            "id":10,
+            "name":"Zoho Suite",
+            "imgUrl":"/tools/cm10.png"
+        },
+        {
+            "id":11,
+            "name":"Moodle",
+            "imgUrl":"/tools/cm11.png"
+        }
+     ],
+     "codetools":[
+        {
+            "id":1,
+            "name":"ReactJS",
+            "imgUrl":""
+        },
+        {
+            "id":2,
+            "name":"React Native",
+            "imgUrl":""
+        },
+        {
+            "id":3,
+            "name":"Node JS",
+            "imgUrl":""
+        },
+        {
+            "id":4,
+            "name":"HTML",
+            "imgUrl":""
+        },
+        {
+            "id":5,
+            "name":"CSS",
+            "imgUrl":""
+        },
+        {
+            "id":6,
+            "name":"Javascript",
+            "imgUrl":""
+        },
+        {
+            "id":6,
+            "name":"Tailwind",
+            "imgUrl":""
+        },
+        {
+            "id":7,
+            "name":"Bootstrap",
+            "imgUrl":""
+        },
+        {
+            "id":8,
+            "name":"Vite JS",
+            "imgUrl":""
+        },
+        {
+            "id":9,
+            "name":"WebPack",
+            "imgUrl":""
+        },
+        {
+            "id":10,
+            "name":"JSON Files",
+            "imgUrl":""
+        },
+        {
+            "id":11,
+            "name":"Git",
+            "imgUrl":""
+        },
+        {
+            "id":12,
+            "name":"GitHub",
+            "imgUrl":""
+        },
+        {
+            "id":13,
+            "name":"AzureOps",
+            "imgUrl":""
+        },
+        {
+            "id":14,
+            "name":"Azure Functions",
+            "imgUrl":""
+        },
+        {
+            "id":15,
+            "name":"Azure Static Web Apps",
+            "imgUrl":""
+        },
+        {
+            "id":16,
+            "name":"Azure Blob Storage",
+            "imgUrl":""
+        },
+        {
+            "id":16,
+            "name":"Open AI API",
+            "imgUrl":""
+        }
      ]
+     
 }
