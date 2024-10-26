@@ -4,10 +4,13 @@
     },
     "routes": [
         {
-            "route": "/api/*",
+            "route": "/blog/*/*",
             "allowedRoles": [
                 "anonymous"
-            ]
+            ],
+            "headers": {
+                "Cache-Control": "no-cache"
+              }
         }
     ]
 }
