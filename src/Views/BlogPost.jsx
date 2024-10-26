@@ -87,7 +87,7 @@ useEffect(() => {
         <meta property="og:title" content={`${post?.title}`} />
         <meta property="og:description" content="A short description of this page." />
         <meta property="og:image" content={`${post?.imgurl}`} />
-        <meta property="og:url" content={`/blog/${catid}/${id}`} />
+        <meta property="og:url" content={`https://3lstrategy.com//blog/${catid}/${id}`} />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags */}
