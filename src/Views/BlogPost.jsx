@@ -102,7 +102,7 @@ useEffect(() => {
        <Header />
         <div className='h-auto pb-12'>
           <h1 className='text-center text-white text-3xl pt-16 pb-12'>{post?.title}</h1>
-          <div className='container mx-auto max-w-3xl text-white prose prose-lg bg-gray-700 bg-opacity-90 shadow-md shadow-black'>
+          <div className='container mx-auto max-w-3xl text-white prose prose-lg bg-gray-900 bg-opacity-90 shadow-md shadow-black'>
           <div
       className="prose prose-lg mx-auto p-4 bg-transparent text-white rounded-md"
       dangerouslySetInnerHTML={{ __html: content }}
