@@ -78,6 +78,27 @@ useEffect(() => {
 
   return (
     <div className='h-auto'>
+    <Helmet>
+      {/* Standard Metadata */}
+      <title>{post?.title}</title>
+        <meta name="description" content="A short description of this page." />
+
+        {/* Open Graph Meta Tags (for Facebook, LinkedIn, etc.) */}
+        <meta property="og:title" content={`${post?.title}`} />
+        <meta property="og:description" content="A short description of this page." />
+        <meta property="og:image" content={`${post?.imgurl}`} />
+        <meta property="og:url" content={`https://3lstrategy.com//blog/${catid}/${id}`} />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${post?.title}`} />
+        <meta name="twitter:description" content="A short description of this page." />
+        <meta name="twitter:image" content={`${post?.imgurl}`} />
+
+        {/* Additional Meta Tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>  
        <Header />
         <div className='h-auto pb-12'>
           <h1 className='text-center text-white text-3xl pt-16 pb-12'>{post?.title}</h1>
