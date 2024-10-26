@@ -4,7 +4,7 @@ import BlogHomepage from './Views/BlogHomepage'
 import ListCategories from './Views/ListCategories'
 import BlogPost from './Views/BlogPost'
 import FOFPage from './Views/FOFPage'
-
+import Contact from './Views/Contact'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -20,6 +20,7 @@ function App() {
               <Route path="/blog" element={<BlogHomepage />} />
               <Route path="/blog/:catid" element={<ListCategories />} />
               <Route path="/blog/:catid/:id" element={<BlogPost />} />
+              <Route path="/contact" element={<Contact />} />
               <Route  path="*" element={<FOFPage />} />
             </Routes>
     </Router> 

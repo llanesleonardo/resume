@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import axios from 'axios'
 import {useParams} from 'react-router-dom'
 import Header from "../Components/Header/Header";
-
+import Footer from "../Components/Footer/Footer";
 
 
 export default function ListCategories() {
@@ -74,6 +74,7 @@ useEffect(() => {
         <div dangerouslySetInnerHTML={{ __html: getData(0,bPosts?.data.length) }} />
       </div>
       </div>
+    <Footer/>
     </div>
   )
 }
