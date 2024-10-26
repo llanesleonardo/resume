@@ -186,7 +186,7 @@
         },
         {
             "id":15,
-            "name":"Azure Static Web Apps",
+            "name":"Azure Static Web & Server apps",
             "imgUrl":""
         },
         {
@@ -195,10 +195,110 @@
             "imgUrl":""
         },
         {
-            "id":16,
+            "id":17,
             "name":"Open AI API",
             "imgUrl":""
+        },
+        {
+            "id":18,
+            "name":"Python",
+            "imgUrl":""
+        },
+        {
+            "id":19,
+            "name":"Jupyter notebooks & panda",
+            "imgUrl":""
+        },
+        {
+            "id":20,
+            "name":"Streamlit",
+            "imgUrl":""
+        },
+        {
+            "id":21,
+            "name":"Chainlit apps",
+            "imgUrl":""
+        },
+        {
+            "id":22,
+            "name":"Replicate AI API",
+            "imgUrl":""
+        },
+        {
+            "id":23,
+            "name":"LangChain LLM",
+            "imgUrl":""
+        },
+        {
+            "id":24,
+            "name":"FLUX Image LLM",
+            "imgUrl":""
+        },
+        {
+            "id":25,
+            "name":"MySQL Server",
+            "imgUrl":""
+        },
+        {
+            "id":26,
+            "name":"Sequelize ORM",
+            "imgUrl":""
+        },
+        {
+            "id":27,
+            "name":"Sequelize migrations",
+            "imgUrl":""
         }
-     ]
+     ],
+     "blog": {
+        "categories":[
+            {"id":"0","title":"HTML5 & CSS3","description":"content"},
+            {"id":"1","title":"JS & Typescript","description":""},
+            {"id":"2","title":"Accessibility & Internationalization","description":""},
+            {"id":"3","title":"Performance Optimization and Analytics","description":""},
+            {"id":"4","title":"JS Frameworks & State management tools","description":""},
+            {"id":"5","title":"Styling Libraries & CSS Preprocessors","description":""},
+            {"id":"6","title":"Module Bundlers & Testing tools","description":""},
+            {"id":"7","title":"APIs & HTTP technologies","description":""},
+            {"id":"8","title":"PWA Technologies & UI component libraries","description":""},
+            {"id":"9","title":"Package management","description":""},
+            {"id":"10","title":"Node JS","description":""},
+            {"id":"11","title":"Python","description":""},
+            {"id":"12","title":"CI/CD Tools","description":""},
+            {"id":"13","title":"Containerization and Orchestration","description":""},
+            {"id":"14","title":"Cloud Platforms","description":""},
+            {"id":"15","title":"Caching and Message Queues","description":""},
+            {"id":"16","title":"Logging and Monitoring","description":""},
+            {"id":"17","title":"Relational  and No relational databases","description":""},
+            {"id":"18","title":"Testing and Quality Assurance","description":""},
+            {"id":"19","title":"APIs & Serveless","description":""},
+            {"id":"20","title":"Authentication & Authorization","description":""},
+            {"id":"21","title":"Security and Compliance Tools","description":""},
+            {"id":"22","title":"Data Analysis and Processing","description":""},
+            {"id":"23","title":"Design patterns","description":""},
+            {"id":"24","title":"Architecture patterns","description":""},
+            {"id":"25","title":"Data Structures","description":""},
+            {"id":"26","title":"Complexity Analysis (Big O Notation)","description":""},
+            {"id":"27","title":"Data Cleaning and Preprocessing","description":""},
+            {"id":"28","title":"IoT & Big Data Technologies","description":""},
+            {"id":"29","title":"Data Privacy & Ethics","description":""},
+            {"id":"30","title":"Machine Learning","description":""},
+            {"id":"31","title":"Deep Learning","description":""},
+            {"id":"32","title":"Data Science and Analytics","description":""},
+            {"id":"33","title":"AI Ethics and Fairness","description":""},
+            {"id":"34","title":"Human-Computer Interaction","description":""},
+            {"id":"35","title":"AI Models and Architectures","description":""},
+            {"id":"36","title":"AI Frameworks and Tools","description":""},
+            {"id":"37","title":"Emerging Trends in AI","description":""},
+            {"id":"38","title":"Robotics and Autonomous Systems","description":""},
+            {"id":"39","title":"","description":""}
+        ]
+    },
+    "general":{
+        "title":"",
+        "author":"",
+        "email":"",
+        "resume":""
+    }
      
 }
