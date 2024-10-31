@@ -77,8 +77,9 @@ useEffect(() => {
 
 
   return (
-    <div className='h-auto'>
-    <Helmet>
+    <div className='h-auto'> 
+       <Header />
+       <Helmet>
       {/* Standard Metadata */}
       <title>{post?.title}</title>
         <meta name="description" content="A short description of this page." />
@@ -98,8 +99,7 @@ useEffect(() => {
 
         {/* Additional Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Helmet>  
-       <Header />
+      </Helmet> 
         <div className='h-auto pb-12'>
           <h1 className='text-center text-white text-3xl pt-16 pb-12'>{post?.title}</h1>
           <div className='container mx-auto max-w-3xl text-white prose prose-lg bg-gray-900 bg-opacity-90 shadow-md shadow-black'>

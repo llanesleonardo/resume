@@ -9,14 +9,14 @@ const NavMenu = () => {
         <div className="">
           <p className="text-black bg-white rounded-md px-5 py-2">Professional resume</p>
         </div>
-        <Search />
+       {/*<Search />*/}
         <div>
           <ul className="flex flex-row justify-between gap-5 text-white uppercase">
             <li>
             <Link to="/">Home</Link>
             </li>
             <li>
-            <Link to="/blog">Blog</Link>
+            {/*<Link to="/blog">Blog</Link>*/}
             </li>
             <li>
             <Link to="/contact">Contact</Link>
