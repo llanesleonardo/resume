@@ -1,6 +1,7 @@
 
 import HomePage from './Views/HomePage'
 import BlogHomepage from './Views/BlogHomepage'
+import ResumeHomePage from './Views/ResumeHomePage'
 import ListCategories from './Views/ListCategories'
 import BlogPost from './Views/BlogPost'
 import FOFPage from './Views/FOFPage'
@@ -13,10 +14,10 @@ function App() {
 
   return (
     <>
-    <div  className=' bg-[url("./assets/bg2.png")]'>
     <Router>
             <Routes>
               <Route  path="/" element={<HomePage />} />
+              <Route  path="/resume" element={<ResumeHomePage />} />
               <Route path="/blog" element={<BlogHomepage />} />
               <Route path="/blog/:catid" element={<ListCategories />} />
               <Route path="/blog/:catid/:id" element={<BlogPost />} />
@@ -25,7 +26,6 @@ function App() {
             </Routes>
     </Router> 
      
-     </div>
     </>
   )
 }
