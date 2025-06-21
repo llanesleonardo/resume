@@ -22,6 +22,10 @@ const NavMenu2 = () => {
            {/* <li>
             <Link to="/blog">Blog</Link>
             </li>*/}
+       
+             <li>
+            <a href="www.linkedin.com/in/leonardo-llanes-86184272" target="_blank">LINKEDIN</a>
+            </li>
             <li>
             <Link to="/contact">Contact</Link>
             </li>

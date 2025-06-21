@@ -8,7 +8,7 @@ import Footer from "../Components/Footer/Footer";
 import SocialMedia from "../Components/Body/SocialMedia";
 import Hero2 from  "../Components/Body/Hero2";
 import EmailServices from "../Components/Body/EmailServices";
-
+import OdooSolutions from "../Components/Body/OdooSolutions";
 const HomePage = () => {
   return (
     <>
@@ -24,9 +24,14 @@ const HomePage = () => {
         <div className="container mx-auto flex flex-row flex-wrap items-start justify-center">
           <Hero2 />
         </div>
-        <div id='websolutions' className="container mx-auto flex flex-row flex-wrap items-start justify-center">
+        <div id='odoosolutions' className="flex flex-row flex-wrap items-start justify-center bg-gray-700">
+          <OdooSolutions />
+        </div>
+
+                <div id='websolutions' className="bg-white text-black flex flex-row flex-wrap items-start justify-center">
           <DigitalSolutions />
         </div>
+
 
         
         <div id='socialmedia' className="container mx-auto flex flex-row flex-wrap items-start justify-center">

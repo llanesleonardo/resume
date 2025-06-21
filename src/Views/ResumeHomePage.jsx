@@ -5,6 +5,7 @@ import Projects from "../Components/Body/Projects";
 import Tech from "../Components/Body/Tech";
 import Code from "../Components/Body/Code";
 import Footer from "../Components/Footer/Footer"
+import DigitalSolutionsTools from "../Components/Body/DigitalSolutionsTools";
 
 const HomePage = () => {
   return (
@@ -13,15 +14,13 @@ const HomePage = () => {
       <div className="">
       <Header />
         <Intro />
-        <div className="container mx-auto flex flex-row flex-wrap items-start justify-center">
+        <div className=" container mx-auto flex flex-row flex-wrap items-start justify-center my-10">
           <Projects />
         </div>
-        <div className="container mx-auto flex flex-row flex-wrap items-start justify-center">
-          <Code />
+        <div className="bg-white container mx-auto flex flex-row flex-wrap items-start justify-center">
+          <DigitalSolutionsTools />
         </div>
-        <div className="container mx-auto flex flex-row flex-wrap items-start justify-center">
-          <Tech />
-        </div>
+
         <Footer />
       </div>
      

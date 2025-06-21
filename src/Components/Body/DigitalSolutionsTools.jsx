@@ -82,87 +82,8 @@ const techLogos6 = [
 
 
 export default function DigitalSolutions() {
-  const solutions = [
-    {
-      title: "Ecommerce",
-      description:
-        "We support you in developing a digital commerce environment that is user-friendly, attractive, and customizable. This solution includes an online store and full support in sales and digital marketing.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/ecommerce-cooling.png"
-    },
-    {
-      title: "Enterprise Website",
-      description:
-        "We develop B2B and B2C digital web environments that are user-friendly and customizable. This BUSINESS WEB solution includes setting up a system and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/we-cooling.png"
-    },
-    {
-      title: "Landing Page",
-      description:
-        "We create attractive and effective lead-generating landing pages. This includes one or more pages and full support in sales and digital marketing.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/landing-cooling.png"
-    },
-    {
-      title: "Marketing Blog",
-      description:
-        "We build digital environments for your marketing team to generate content and capture leads. This solution includes a CMS and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/blog-cooling.png"
-    },
-
-        {
-          
-      title: "Wordpress Plugin Development",
-      description:
-        "We build digital environments for your marketing team to generate content and capture leads. This solution includes a CMS and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/blog-cooling.png"
-    },
-    {
-      title: "Wordpress + CRM Integration",
-      description:
-        "We build digital environments for your marketing team to generate content and capture leads. This solution includes a CMS and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/blog-cooling.png"
-    },
-
-            {
-      title: "SSR Websites",
-      description:
-        "We build digital environments for your marketing team to generate content and capture leads. This solution includes a CMS and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/blog-cooling.png"
-    },
-            {
-          
-      title: "PHP Yii Framework Development",
-      description:
-        "We build digital environments for your marketing team to generate content and capture leads. This solution includes a CMS and digital marketing support.",
-      img: "https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/servicios/blog-cooling.png"
-    }
-
-  ];
-
-
-
   return (
-    <div className="  container mx-auto ">
-      <div className="pt-20 pb-10 text-center">
-        <WindowIcon className="mx-auto w-8 h-8 text-white bg-slate-800 rounded-full p-1" />
-      </div>
-      <h1 className="text-4xl  text-slate-800 text-center py-5 px-10">Web Solutions</h1>
-
-      {/* Grid of Solutions */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-10 py-20 max-w-screen-xl mx-auto">
-        {solutions.map((item, index) => (
-          <div
-            key={index}
-            className="bg-slate-100 rounded-lg shadow-md flex flex-col h-full overflow-hidden"
-          >
-            <img src={item.img} className="w-full object-cover h-64" alt={item.title} />
-            <div className="p-6 flex flex-col justify-start flex-1">
-              <h2 className="text-3xl font-bold ">{item.title}</h2>
-              <p className="text-lg text-justify pt-5">{item.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-
+    <div>
       {/* Technology Logos */}
       <div className="py-10 px-10">
         <h2 className="text-slate-800  text-3xl mb-6 text-center">Solutions Powered By</h2>

@@ -22,6 +22,7 @@ const NavMenu = () => {
            {/* <li>
             <Link to="/blog">Blog</Link>
             </li>*/}
+                  <a href="www.linkedin.com/in/leonardo-llanes-86184272" target="_blank">LINKEDIN</a>
             <li>
             <Link to="/contact">Contact</Link>
             </li>
@@ -35,13 +36,19 @@ const NavMenu = () => {
               <a href="#consulting" >Consulting services</a>
             </li>
             <li>
-              <a href="#websolutions" >Web solutions</a>
+              <a href="#odoosolutions" >Odoo ERP and Odoo.sh</a>
+            </li>
+                        <li>
+              <a href="#crmsolutions" >CRM Solutions</a>
+            </li>
+            <li>
+              <a href="#websolutions" >Web </a>
             </li>
             <li>
               <a href="#socialmedia" >Social media</a>
             </li>
             <li>
-              <a href="#massemail" >Mass email</a>
+              <a href="#massemail" >Mass email </a>
             </li>
           </ul>
           </div>
