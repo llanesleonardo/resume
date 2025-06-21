@@ -156,7 +156,7 @@ export default function DigitalSolutions() {
           >
             <img src={item.img} className="w-full object-cover h-64" alt={item.title} />
             <div className="p-6 flex flex-col justify-start flex-1">
-              <h2 className="text-3xl font-bold ">{item.title}</h2>
+              <h2 className="text-2xl md:text-3xl font-bold ">{item.title}</h2>
               <p className="text-lg text-justify pt-5">{item.description}</p>
             </div>
           </div>
