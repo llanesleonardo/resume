@@ -6,9 +6,9 @@ const NavMenu = () => {
   return (
     <>
     <nav className="sticky top-0 z-50">
-      <div className="bg-white flex flex-row justify-center md:justify-around lg:justify-around  pt-5 pb-5 px-10 ">
+      <div className="bg-white flex flex-col md:flex-row justify-center md:justify-around lg:justify-around  pt-5 pb-5 px-10 ">
         <div className="">
-          <p className="text-slate-800 rounded-md px-5 py-2">3L Technology & Innovation</p>
+          <p className="text-slate-800 rounded-md px-5 py-2  text-center md:text-left">3L Technology & Innovation</p>
         </div>
        {/*<Search />*/}
         <div className="flex flex-row justify-center items-center">
@@ -30,7 +30,7 @@ const NavMenu = () => {
         </div>
       </div>
       <div>
-        <div className="flex flex-row justify-center items-center w-screen bg-blue-800">
+        <div className="flex flex-row justify-center items-center w-screen bg-blue-800 hidden md:block">
           <ul className=" flex flex-row justify-between gap-5 text-white py-3">
             <li>
               <a href="#consulting" >Consulting services</a>
