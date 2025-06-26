@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: azure-functions-api
+  description: Azure Functions backend used by the resume app
+  owner: llanesleonardo
+spec:
+  type: http
+  lifecycle: production
+  # No `definition` field yet since you don’t have OpenAPI spec
