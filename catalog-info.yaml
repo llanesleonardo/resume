@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-awesome-project
-  description: This is my awesome project hosted on GitHub.
-  owner: your-team-or-username
+  name: resume-frontend
+  description: ReactJS app for my resume, hosted on GitHub Pages
+  owner: llanesleonardo
 spec:
-  type: service       # or 'website' if it's a web page
+  type: website
   lifecycle: production
-  implementsApis: []
-  providesApis: []
-  dependsOn: []
+  implementsApis:
+    - azure-functions-api
