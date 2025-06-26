@@ -3,9 +3,9 @@ kind: Component
 metadata:
   name: resume-frontend
   description: ReactJS app for my resume
-  owner: llanesleonardo
 spec:
   type: website
   lifecycle: production
+  owner: llanesleonardo   # <-- must be here, NOT just under metadata
   implementsApis:
     - azure-functions-api
