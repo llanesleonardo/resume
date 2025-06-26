@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Group
 metadata:
-  name: resume
-  description: ReactJS app for my resume
+  name: llanesleonardo
+  description: Personal or team group for Leonardo Llanes
 spec:
-  type: website
-  lifecycle: production
-  owner: llanesleonardo   # <-- must be here, NOT just under metadata
-  implementsApis:
-    - azure-functions-api
+  type: team
+  profile:
+    displayName: Leonardo Llanes
+  members: []
