@@ -3,8 +3,8 @@ kind: API
 metadata:
   name: azure-functions-api
   description: Azure Functions backend used by the resume app
-  owner: llanesleonardo
 spec:
   type: http
   lifecycle: production
+  owner: llanesleonardo
   # No `definition` field yet since you don’t have OpenAPI spec
