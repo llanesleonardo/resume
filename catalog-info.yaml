@@ -2,8 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: resume
-  annotations:
-    github.com/project-slug: llanesleonardo/resume
+  description: ReactJS app for my resume
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: production
+  owner: llanesleonardo   # <-- must be here, NOT just under metadata
+  implementsApis:
+    - azure-functions-api
