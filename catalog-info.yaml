@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: resume-frontend
-  description: ReactJS app for my resume, hosted on GitHub Pages
+  description: ReactJS app for my resume
   owner: llanesleonardo
 spec:
   type: website
