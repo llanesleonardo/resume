@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: llanesleonardo
+  description: Personal or team group for Leonardo Llanes
+spec:
+  type: team
+  profile:
+    displayName: Leonardo Llanes
+  members: []
