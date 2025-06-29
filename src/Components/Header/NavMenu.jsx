@@ -31,7 +31,7 @@ const NavMenu = () => {
       </div>
       <div>
         <div className="flex flex-row justify-center items-center w-screen bg-blue-800 hidden md:block">
-          <ul className=" flex flex-row justify-between gap-5 text-white py-3">
+          <ul className=" flex flex-row justify-center gap-5 text-white py-3">
             <li>
               <a href="#consulting" >Consulting services</a>
             </li>
