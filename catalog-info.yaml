@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: llanesleonardo
-  description: Personal for Leonardo Llanes
+  description: Personal user for Leonardo Llanes
 spec:
-  type: guest
   profile:
     displayName: Leonardo Llanes
-  members: []
+    email: llanesleonardo@gmail.com  # recommended to add email
+  memberOf:
+    - guests  # or your group name here
