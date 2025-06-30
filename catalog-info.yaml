@@ -1,11 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Component
 metadata:
-  name: llanesleonardo
-  description: Personal user for Leonardo Llanes
+  name: resume
+  description: Resume Website
 spec:
-  profile:
-    displayName: Leonardo Llanes
-    email: llanesleonardo@gmail.com  # recommended to add email
-  memberOf:
-    - guests  # or your group name here
+  type: website
+  lifecycle: production
+  owner: llanesleonardo
